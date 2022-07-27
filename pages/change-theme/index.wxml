@@ -1,0 +1,25 @@
+<view>
+  <myBg src="{{themeImgSrc}}"></myBg>
+  <myHeader data-title="主题" theme="{{theme}}" bind:callback="headerCallback"/>
+  <view  class="content animated fadeInRight" style="height:{{contentHeight}}px">
+    <view  class="content-box" >
+      <block wx:for="{{bgArr}}" wx:key="index">
+        <view class="item">
+          <image class="image" src="{{bgArr[index]}}"  ></image>
+          <button class="btn" type="default" bindtap="setTheme" data-src="{{bgArr[index]}}" data-index="{{index}}">设置</button>
+        </view>
+      </block>
+      <view class="item item-add">
+        <view  class="image" bindtap="changeTheme">
+          <text class="text" >选择图片</text>
+        </view>
+        <image  class="image imageBg" src="{{addBgImg}}"  ></image>
+        <button class="btn" type="default" bindtap="saveTheme" data-index="{{bgArr.length}}" data-src="{{addBgImg}}">设置</button>
+      </view>
+    </view>
+    <view class="last-view">
+      <button type="primary" bindtap="delData" >清除缓存</button>
+    </view>
+  </view>
+</view>
+

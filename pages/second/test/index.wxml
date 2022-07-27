@@ -1,0 +1,9 @@
+<view>
+	<myBg></myBg>
+	<myHeader data-title="test"></myHeader>
+	<view class="page-content1  font-color{{theme>6?2:theme}}" style="height: {{height}}px;">
+		{{themeImgSrc}}
+	</view>
+	
+</view>
+

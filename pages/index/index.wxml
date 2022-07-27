@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view>
+  <myBg src="{{themeImgSrc}}"></myBg>
+  <myHeader data-title="首页" theme="{{theme}}"></myHeader>
+  <view class="animated fadeInRight page-content2 font-color{{theme>themeNum?2:theme}}" style="height:{{Height}}px">
+    <page1 wx:if="{{tabIndex==0}}"></page1>
+    <page2 wx:if="{{tabIndex==1}}"></page2>
+    <page3 wx:if="{{tabIndex==2}}"></page3>
+    <page4 wx:if="{{tabIndex==3}}"></page4>
+  </view>
+  <myTabbar pageIndex="{{tabIndex}}" theme="{{theme}}" bind:callback="tabCallback"></myTabbar>
+</view>

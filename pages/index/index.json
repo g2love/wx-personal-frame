@@ -1,0 +1,10 @@
+{
+  "navigationStyle":"custom",
+  "usingComponents": {
+    "myTabbar":"/components/tabar/index",
+    "page1":"/pages/page-1/index",
+    "page2":"/pages/page-2/index",
+    "page3":"/pages/page-3/index",
+    "page4":"/pages/page-4/index"
+  }
+}

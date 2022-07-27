@@ -1,0 +1,4 @@
+<view class="bg">
+	<image class="image" lazy-load="true" src="{{src}}"></image>
+</view>
+

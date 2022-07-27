@@ -1,0 +1,14 @@
+<view class="footer" style="height:{{height}}px;">
+	<block wx:for="{{menu}}"  wx:key="index">
+		<view class="item" bindtap="changeTabbar" data-index="{{index}}" style="width:{{100/menu.length}}%;">
+			<block wx:if="{{index!=pageIndex}}">
+				<image class="image icon" src="{{item.defaultImg}}"></image>
+				<text class="text  font-color{{theme>themeNum?2:theme}}">{{item.text}}</text>
+			</block>
+			<block wx:else="{{index==pageIndex}}">
+				<image  class="image iconActive" src="{{item.activeImg}}"></image>
+				<text class="text  active-font-color{{theme>themeNum?2:theme}}">{{item.text}}</text>
+			</block>
+		</view>
+	</block>
+</view>

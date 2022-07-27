@@ -1,0 +1,8 @@
+<view style="height: {{headerHeight}}px;">
+  <view  class="header"  style="height: {{headerHeight+systemBar}}px;">
+    <view class="back" bindtap="goBack"  wx:if="{{left}}" style="width:{{systemBar}}px;height:{{systemBar}}px">
+      <image class="header-back" src="icon/back-{{theme>themeNum?2:theme}}.png" binderror="backImgError"></image>
+    </view>
+    <text class=" font-color{{theme>themeNum?2:theme}}">{{title}}</text>
+  </view>
+</view>

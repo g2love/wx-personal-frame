@@ -1,0 +1,59 @@
+<view>
+	page-1
+	<button type="primary" bindtap="goPage" data-url="/pages/second/test/index?t=1">跳转test</button>
+	<button type="primary" bindtap="goPage" data-url="/pages/change-theme/index">主题设置</button>
+	
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+	<view>aa</view>
+</view>
+

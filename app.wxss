@@ -1,0 +1,23 @@
+/**app.wxss**/
+@import "/css/weui.wxss";
+@import "/css/animate.wxss";
+
+page{
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+page>view {
+  position: relative;
+	width: 100vw;
+  height: 100vh;
+	background-color:transparent;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

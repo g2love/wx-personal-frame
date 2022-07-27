@@ -1,0 +1,65 @@
+
+.font-color0{
+	color: #191919;
+}
+.font-color1{
+	color: white;
+}
+.font-color2{
+	color: #07c160;
+}
+.font-color3{
+	color: red;
+}
+.font-color4{
+	color: #259c5c;
+}
+.font-color5{
+	color: #10aeff;
+}
+.font-color6{
+	color: #fa5151;
+}
+
+.active-font-color0{
+	color: #07c160;
+}
+.active-font-color1{
+	color: #07c160;
+}
+.active-font-color2{
+	color: #f00;
+}
+.active-font-color3{
+	color: #fff;
+}
+.active-font-color4{
+	color: #10aeff;
+}
+.active-font-color5{
+	color: #fff;
+}
+.active-font-color6{
+	color: #000;
+}
+
+.page-content1{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.page-content2{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-bottom: 10px;
+	box-sizing: content-box;
+}
+.opacity-0{
+	opacity: 0;
+}
+.opacity-1{
+	opacity: 1;
+}
