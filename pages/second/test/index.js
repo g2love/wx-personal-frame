@@ -3,7 +3,8 @@ const pageOptions = {
   // 页面数据
   data: {
     themeImgSrc:"",
-    height:app.globalData.contentHeight1
+    height:app.globalData.contentHeight1,
+	themeNum:app.globalData.themeNum,
   },
   // 页面载入时
   onLoad(e) {
